@@ -11,8 +11,8 @@ from zoneinfo import ZoneInfo
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-from .config import settings
-from .integrations import gas, send_whatsapp
+from config import settings
+from integrations import gas, send_whatsapp
 
 log = logging.getLogger("reminders")
 
