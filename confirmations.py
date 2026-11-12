@@ -6,9 +6,9 @@
 """
 import re
 
-from .booking_service import cancel_booking
-from .config import settings
-from .integrations import gas, notify_admin, send_whatsapp
+from booking_service import cancel_booking
+from config import settings
+from integrations import gas, notify_admin, send_whatsapp
 
 CONFIRM_WORDS = {"да", "yes", "ок", "окей", "ok", "подтверждаю", "+", "конечно", "буду", "приду"}
 CANCEL_WORDS = {"отменяю", "отмена", "отменить", "нет", "не приду", "не смогу"}
