@@ -7,7 +7,7 @@ import re
 
 import httpx
 
-from .config import settings
+from config import settings
 
 # follow_redirects обязателен: Apps Script отвечает на POST редиректом 302.
 _http = httpx.AsyncClient(timeout=30, follow_redirects=True)
