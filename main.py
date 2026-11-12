@@ -3,7 +3,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, Request
 
-from .booking_service import create_booking
+from booking_service import create_booking
 from .config import settings
 from .confirmations import handle_client_reply
 from .reminders import scheduler, start_scheduler
