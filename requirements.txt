@@ -1,0 +1,7 @@
+# Объедините со своим requirements.txt (у вас уже есть openai и др.)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+httpx>=0.27
+apscheduler>=3.10,<4   # версия 4 имеет другой API
+tzdata                  # часовые пояса в slim-образе
+openai>=1.30
