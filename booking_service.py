@@ -6,7 +6,7 @@
 """
 from typing import Literal
 
-from .integrations import gas
+from integrations import gas
 
 Source = Literal["client", "admin"]
 
